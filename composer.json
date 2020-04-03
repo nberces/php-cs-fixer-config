@@ -24,11 +24,11 @@
   "autoload": {
     "psr-4": {
       "NBerces\\PHPCSFixerConfig\\": "src/"
-    },
-    "autoload-dev": {
-      "psr-4": {
-        "NBerces\\PHPCSFixerConfigTests\\": "tests/"
-      }
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NBerces\\PHPCSFixerConfigTests\\": "tests/"
     }
   }
 }
