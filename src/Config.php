@@ -16,7 +16,7 @@ class Config extends BaseConfig
      *
      * @param string|null $name
      */
-    public function __construct(?string $name)
+    public function __construct(?string $name = null)
     {
         if (empty($name)) {
             $name = 'default';
