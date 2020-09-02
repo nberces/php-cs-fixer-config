@@ -51,6 +51,12 @@ class Config extends BaseConfig
                     'property_public',
                     'property_protected',
                     'property_private',
+                    'method_public_abstract_static',
+                    'method_protected_abstract_static',
+                    'method_abstract',
+                    'method_public_abstract',
+                    'method_protected_abstract',
+                    'method_static',
                     'method_public_static',
                     'method_protected_static',
                     'method_private_static',
@@ -77,7 +83,8 @@ class Config extends BaseConfig
                 'order' => 'alpha'
             ],
             'ordered_traits' => true,
-            'phpdoc_order' => true
+            'phpdoc_order' => true,
+            'phpdoc_trim' => true
         ];
     }
 
